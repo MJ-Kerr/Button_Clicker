@@ -4,4 +4,6 @@ function thumbDown(jokeSpan) {
 
 function thumbUp(jokeSpan) {
     jokeSpan.innerText++;
+    alert('ninja has been liked')
 }
+
