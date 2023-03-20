@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e58136efaf.js" crossorigin="anonymous"></script>
+    <title>Dojonary</title>
 </head>
+
 <body>
-    
+    <h1>Dojonary</h1>
+    <div class="container flex">
+        <div class="defCard">
+            <div class="word">
+                <h2>ninja</h2>
+                <h4>noun</h4>
+                <h4>Plural: ninjas</h4>
+                <p><span id="def1">13</span> Likes</p>
+                <div class="word-footer">
+                    <button class="btn" onclick="thumbUp(def1)">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                    </button>
+                    <button class="btn" onclick="thumbDown(def1)">
+                        <i class="fa-solid fa-thumbs-down"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="definition">
+                hey
+            </div>
+        </div>
+        <aside class="text-center"></aside>
+    </div>
+    <div class="container flex">
+        <div class="defCard">
+            <div class="word">
+                <h2>ninja</h2>
+                <h4>noun</h4>
+                <h4>Plural: ninjas</h4>
+                <p><span id="def2">13</span> Likes</p>
+                <div class="word-footer">
+                    <button class="btn" onclick="thumbUp(def1)">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                    </button>
+                    <button class="btn" onclick="thumbDown(def1)">
+                        <i class="fa-solid fa-thumbs-down"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="definition">
+                hey
+            </div>
+        </div>
+        <aside class="clear"></aside>
+    </div>
+    <script src="./script.js"></script>
 </body>
+
 </html>
