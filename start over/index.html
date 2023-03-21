@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Button Clicker </title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="flex">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search">
+            <button id="btn">Login</button>
+        </nav>
+    </div>
+    <main class="container flex">
+        <div class="cards flex justify-start">
+            <div class="defCard flex justify-start">
+                <div class="word">
+                    <h3>ninja</h3>
+                    <p>noun</p>
+                    <p>Plural: ninjas</p>
+                    <button class="wordBtn" onclick="showAlert()"><span>37</span> likes</button>
+                </div>
+                <div class="definition">
+                    A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                </div>
+            </div>
+            <div class="defCard flex justify-start">
+                <div class="word">
+                    <h3>ninja</h3>
+                    <p>noun</p>
+                    <p>Plural: ninjas</p>
+                    <button class="wordBtn" onclick="showAlert()"><span>37</span> likes</button>
+                </div>
+                <div class="definition">
+                    A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus.
+                </div>
+            </div>
+        </div>
+        <div class="sidebar justify-start flex">
+            <h4>
+                Dojonary is defined by YOU
+            </h4>
+            <button onclick="this.style.display='none'">Add Definition</button>
+        </div>
+    </main>
+    <script src="./source.js"> </script>
+</body>
+
+</html>
